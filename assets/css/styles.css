@@ -1,0 +1,745 @@
+/* ------------- Declare Main Varibles ------------- */
+:root {
+    --clr-primary-200: #F3EED9;
+    --clr-primary-100: #C0BDBD;
+    --clr-neutral-700: #302F2F;
+    --clr-neutral-100: #FFF;
+    --clr-neutral-900: #292B2A;
+    --clr-purply: #6563ff;
+    --ff-primary: sans-serif;
+    --ff-accent: serif;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+.header__btn {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: var(--clr-primary-100);
+    margin: 0 12px;
+    font-size: 1.2rem;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn__container {
+    display: flex;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-right: 3.6125rem;
+}
+
+.first__container {
+    padding: 5rem 3.5rem 0;
+}
+
+.img-fleet {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+h1,
+p {
+    font-family: var(--ff-primary);
+    color: var(--clr-neutral-100);
+}
+
+.fleet-logo h1 {
+    font-size: 4.3rem;
+}
+
+.preview-text {
+    font-size: 2.4rem;
+}
+
+.logo__btn {
+    margin-left: 2.75rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.preview__btn {
+    background: none;
+    border: 1px solid var(--clr-primary-100);
+    border-radius: 2px 4px 2px 8px;
+    padding: 8px 12px;
+    color: var(--clr-primary-100);
+}
+
+.download__btn {
+    background: var(--clr-primary-200);
+    border: none;
+    border-radius: 25px;
+    color: #000;
+    font-size: 1rem;
+    padding: 15px 35px;
+}
+
+.download__container {
+    margin: 4rem 0;
+}
+
+.fleet-preview {
+    margin-top: 0.5rem;
+}
+
+.download__text {
+    margin: 1rem 1rem;
+    font-size: 0.9rem;
+    color: var(--clr-primary-100);
+}
+
+.img__code {
+    width: 100%;
+}
+
+.text__behind-code {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3.5rem 0;
+    margin: 0 3rem;
+}
+
+.btns__div {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.btn__div-container {
+    margin: 3.2rem 0;
+    border: 1px solid var(--clr-primary-100);
+    border-radius: 25px;
+    padding: 10px 0;
+}
+
+.buttons__nice {
+    background: none;
+    color: var(--clr-neutral-100);
+    border: none;
+    margin: 0 25px;
+    font-family: var(--ff-primary);
+    font-size: 1.056rem;
+}
+
+.rev__div {
+    padding: 0 18px;
+}
+
+.container--header, 
+.fleet-logo,
+.fleet-preview,
+.download__container,
+.third--container,
+.fouth__container,
+.logos__contents,
+.texts__container-logo, 
+.last__container, 
+.logos__programming,
+.fit__div1,
+.fit__img, 
+.text__div-alone,
+.plugins__div,
+.sixth__container,
+.a__div-seps,
+.img__rights,
+.semi__dark-container {
+    display: flex;
+    flex-basis: content;
+}
+
+.links__btn img ,
+.links__btn-img img {
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.logo__btn img {
+    width: 4.42rem;
+    height: 4.789rem;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+.third--container {
+    padding: 3rem 3.5rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.ul__links img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 8px;
+}
+
+.p__class {
+    margin-right: 80px;
+    font-size: 1.2rem;
+}
+
+.h__text {
+    font-size: 3.2rem;
+    padding-bottom: 1.7rem;
+}
+
+.links__container {
+    border: 1px solid var(--clr-primary-100);
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    width: 170%;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.fleet__purple {
+    background: var(--clr-purply);
+    color: var(--clr-neutral-100);
+}
+
+.fleet__white {
+    background: var(--clr-neutral-100);
+    color: var(--clr-neutral-900);
+}
+
+.left__side p {
+    color: var(--clr-neutral-900);
+}
+
+.right__side p {
+    color: var(--clr-neutral-100);
+}
+
+.right__side p,
+.left__side p {
+    font-size: 1rem;
+    margin: 5px 2px 5px 0;
+}
+
+.img__rights {
+    padding: 0 0 0 30px;
+}
+
+.move__left {
+    padding: 0 15px 0 5px;
+}
+
+.text__container--seps {
+    padding: 3rem 3.5rem;
+    width: 55%;
+}
+
+.text__container--seps img {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.text__fouth {
+    font-size: 0.75rem;
+    color: var(--clr-primary-100);
+    margin-left: 250px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.fleet__purple,
+.fleet__white {
+    padding: 8px;
+    margin: 30px 25px 0;
+    border-radius: 25px;
+}
+
+.text__third {
+    padding: 30px 0 5px;
+}
+
+.div__links {
+    display: flex;
+    flex-basis: content;
+    justify-content: center;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+.fouth__container,
+.fifth__container {
+    padding: 3rem 3.5rem;
+}
+
+.logos__container img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo-content {
+    margin: 0 35px;
+}
+
+.logo-content p {
+    color: var(--clr-primary-100);
+    font-size: 0.9rem;
+}
+
+.logo-content .p__logos {
+    color: var(--clr-neutral-100);
+    font-size: 1.3rem;
+}
+
+.logo-content .p__logos-seps {
+    font-size: 0.8rem;
+    margin: 0 15px;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 6px;
+    padding: 2px 5px;
+}
+
+.text__logo {
+    margin: 15px 0;
+}
+
+.text__container-img h1{
+    font-size: 3.2rem;
+    padding-bottom: 1.7rem;
+    margin-top: 1rem;
+}
+
+.text__container-img p {
+    font-size: 1.175rem;
+    color: var(--clr-neutral-100);
+    margin-right: 110px;
+}
+
+.fifth__container h1{
+    font-size: 2.875rem;
+    padding-bottom: 2rem;
+    max-width: 40%;
+}
+
+.fifth__container p {
+    font-size: 1.175rem;
+    color: var(--clr-neutral-100);
+    max-width: 40%;
+}
+
+.p1__text {
+    padding-bottom: 2.5rem;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+.new__section img {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.new__section .c__icon {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.arrange__btn button {
+    color: var(--clr-neutral-100);
+    cursor: pointer;
+}
+
+.texts__programming h1{
+    font-size: 2.75rem;
+    margin-top: 28px;
+    margin-bottom: 3rem;
+}
+
+.text1__programming {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--clr-primary-100);
+}
+
+.texts__programming {
+    width: 36%;
+    margin-left: 85px;
+}
+
+.arrange__btn img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.link__div {
+    padding: 0 3.5rem 0;
+}
+
+.second__collection,
+.third__collection {
+    margin: 30px 30px;
+    padding: 8px 10px;
+}
+
+.first__collection {
+    margin: 35px 35px;
+    padding: 8px 25px;
+}
+
+.link__div p{
+    font-size: 1.27rem;
+    margin-bottom: 0.75rem;
+}
+
+.link__div button {
+    font-size: 1.25rem;
+}
+
+.link__div button,
+.link__div p {
+    color: var(--clr-primary-100);
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+.centaral__div {
+    text-align: center;
+    padding: 0 12% 0;
+}
+
+.centaral__div h1 {
+    font-size: 2.5rem;
+    padding: 7rem 0 3rem;
+}
+
+.centaral__div p {
+    font-size: 1.3rem;
+    color: var(--clr-primary-100);
+    padding-bottom: 1.5rem;
+    line-height: 1.3;
+}
+
+.centaral__div button {
+    color: #000;
+    background-color: var(--clr-neutral-100);
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+.img__alt1,
+.img__alt2 {
+    width: 50%;
+}
+
+.fit__img {
+    position: relative;
+    padding-top: 3px;
+}
+
+.img__alt1 {
+    padding-top: 6px;
+}
+
+.svg__alt1 {
+    width: 3%;
+    height: 3%;
+    margin: 6% 0 0;
+    
+}
+
+.absoult__div {
+    padding: 0 3.5rem 0;
+}
+
+.fit__div1 p {
+    font-size: 0.8rem;
+    margin: 5% 15% 0;
+    border: 1px solid var(--clr-purply);
+    border-radius: 15px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.text__gigas {
+    border: 1px solid var(--clr-purply);
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin: 0 12px;
+}
+
+.p__absoult {
+    font-size: 0.9rem;
+    color: var(--clr-neutral-100);
+    margin: 25px 15px 0;
+}
+
+.text__div-alone {
+    margin: 20px 0;
+}
+
+.big__p {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+
+.small__p {
+    font-size: 0.8rem;
+    color: var(--clr-primary-100);
+}
+
+.text__letters {
+    padding: 0.5rem 3.5rem 2rem;
+}
+
+.text__letters h1 {
+    font-size: 2.8rem;
+}
+
+.text__letters p {
+    width: 49%;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+.card__element img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.p__capital {
+    font-size: 1.4rem;
+    color: var(--clr-neutral-100);
+    margin-bottom: 1rem;
+}
+
+.p__small-alt {
+    font-size: 1.125rem;
+    color: var(--clr-primary-100);
+}
+
+.card__row-one {
+    margin: 3rem 2rem 2rem;
+}
+
+.card__row-one {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 0.5rem;
+}
+
+.plugins__div-p {
+    font-size: 0.75rem;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 5px;
+    padding: 4px 8px;
+    color: var(--clr-primary-100);
+    margin: 8px 5px 16px;
+}
+
+.p__capital-alt {
+    margin: 5px 0 0;
+    font-size: 1.4rem;
+}
+
+.card__container {
+    padding: 2rem 0 4.5rem;
+}
+
+.card__element {
+    background: var(--clr-neutral-700);
+    margin: 0 20px;
+    border-radius: 15px;
+    padding: 2rem 20px;
+}
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+
+/* ------------- Declare Main Varibles ------------- */
+
+.a__container img,
+.a__div-seps img {
+    width: 1.275rem;
+    height: 1.275rem;
+}
+
+.make__a_container {
+    padding: 8.3rem 0 0 0;
+}
+
+.a__container a,
+.a__div-seps a {
+    color: var(--clr-neutral-100);
+    text-decoration: underline var(--clr-neutral-100);
+}
+
+.sixth__container {
+    padding: 1rem 3.5rem 7rem;
+}
+
+.new__generation button {
+    color: #000;
+    background: var(--clr-neutral-100);
+    border-radius: 23px;
+    font-size: 1rem;
+    padding: 15px 35px;
+}
+
+.p__generation {
+    font-size: 1.8rem;
+    padding: 5rem 0 1.5rem;
+}
+
+.a__div-seps p {
+    padding: 1.125rem 0 3rem;
+    font-size: 0.8rem;
+}
+
+.a__img-container {
+    margin: 10px 5px;
+}
+
+input {
+    background-color: var(--clr-neutral-700);
+    border: none;
+    color: var(--clr-neutral-100);
+    
+    padding: 15px 300px 15px 10px;
+    font-size: 1rem;
+}
+
+.forum__container {
+    padding: 5.5rem 6.5rem 1rem 8rem;
+}
+
+.forum__container p {
+    font-size: 1.4rem;
+    padding: 0 0 1.2rem;
+}
+
+.a__img-div {
+    padding: 0 0 1.5rem;
+}
+
+.a__img-div a {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.semi__dark-container {
+    color: var(--clr-primary-100);
+    gap: 5rem;
+    line-height: 1.8;
+}
+
+.bg__semi-dark {
+    padding: 3.5rem 3rem;
+}
+
+
+.footer-btns img {
+    width: 20px;
+    height: 20px;
+}
+
+.border {
+    border: 0.5px solid var(--clr-primary-100);
+    margin: 4rem 3rem 2rem;
+}
+
+.footer-link a,
+.footer-btns a {
+    margin-inline: 0 30px;
+}
+
+.title-footer {
+    font-size: 1.1rem;
+}
+
+.text-footer {
+    color: var(--clr-primary-100);
+    font-size: 0.9rem;
+}
+
+.footer-link {
+    margin: 1rem 0;
+}
+
+.footer__copy, 
+.footer-link a {
+    color: var(--clr-primary-100);
+}
+
+.footer__copy {
+    font-size: 0.8rem;
+}
+
+/* ------------- Declare Main Varibles ------------- */
+
+.svg-icon img, 
+.svg__alt1 {
+    filter: hue-rotate(160deg) contrast(0%) brightness(160%);
+}
+
+.card__element img,
+.a__div-seps img,
+.a__container img,
+.while__div img {
+    filter: hue-rotate(160deg) contrast(0%) brightness(180%);
+}
+
+.svg-black img{
+    filter: hue-rotate(160deg) contrast(0%) brightness(10%);
+}
+
+.bg__little-dark {
+    background-color: var(--clr-neutral-900);
+}
+
+.bg__semi-fancy {
+    background-image: linear-gradient(-310deg,rgb(22, 28, 77), rgb(22, 28, 77), rgb(7, 11, 32), rgb(24, 23, 23), rgb(24, 23, 23), rgb(24, 23, 23), rgb(24, 23, 23), rgb(39, 35, 48), rgb(43, 34, 51), rgb(38, 16, 58), rgb(41, 40, 40));
+}
+
+.bg-fancy {
+    background-image: linear-gradient(-235deg,rgb(133, 105, 231), rgb(63, 107, 230), rgb(88, 125, 224), rgb(140, 59, 233), rgb(123, 81, 221), rgb(151, 92, 245), rgb(151, 92, 245), rgb(150, 130, 236), rgb(95, 182, 233));
+}
+
+.bg-dark {
+    background-color: var(--clr-neutral-900);
+}
+
+.bg__semi-dark {
+    background-color: var(--clr-neutral-700);
+}
